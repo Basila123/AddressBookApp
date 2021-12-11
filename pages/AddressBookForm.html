@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;600&display=swap">
+  <link rel="stylesheet" href="../css/Ab.css">
+  <title>Address Book</title>
+  <script src="https://kit.fontawesome.com/275c972189.js" crossorigin="anonymous"></script>  <script defer src="../js/AddressBookData.js"></script>
+  <script defer src="../js/EventListenerAb.js"></script>
+</head>
+
+<body>
+  <header class="header-content header">
+    <div class="logo-content">
+      <img src="../asset/images.png" alt="logo image">
+      <div>
+        <span class="add-text">ADDRESS</span><br>
+        <span class="add-text add-book">BOOK</span>
+      </div>
+      <!--
+      <div class="innerclass">
+        <h1><u> Add Person Address Book UI/UX</u></h1>
+       </div>-->
+
+    </div>
+  </header>
+  <div class="form-content">
+    <form class="form" action="#" onsubmit="save(event);return false">
+      <div class="form-head">
+        <div class="title">Address Book </div>
+        <div ><button class="iconX"><i class="fas fa-times"></i></button></div>
+        </div>
+      <div class="row-content">
+         <input class="input" type="text" id="name" name="name" required/>
+          <span class="floating-label">your name</span>
+          <error-output class="text-error" for="text"></error-output>
+    </div>
+    <div class="row-content">
+    <input class="input" type="text" id="address" name="address" placeholder=" "required>
+    <span class="floating-label1">your address</span>
+    <error-output class="address-output" for="text"></error-output>
+  </div>
+  
+  <div class="row-content">
+    <div class="location">
+        <select class="select" id="city" name="city" area-placeholder="city">
+          <option value="0">Select City</option>
+            <option value="1">Kochi</option>
+            <option value="2">Banglore</option>
+            <option value="3">Chennai</option>
+            <option value="4">Mumbai</option>
+            <option value="5">Jaipur</option>
+            <option value="6">Delhi</option>
+            <option value="7">Hyderabad</option>
+            
+        </select>
+        <select class="select"id="state" name="State">
+          <option value="0">Select State</option>
+            <option value="1">Kerala</option>
+            <option value="2">Karanataka</option>
+            <option value="3">Tamil Nadu</option>
+            <option value="4">Rajastan</option>
+            <option value="5">Delhi</option>
+            <option value="6">Andhra Pradhesh</option>
+            
+        </select>
+        <input class="input1" type="text" id="zipcode" name="zipcode" required/>
+       <span class="floating-label3">Zipcode</span>
+       <error-output class="zip-error" for="text"></error-output>
+
+    </div>
+    </div>
+    <div class="row-content">
+      <input class="input" type="text" id="phone" name="phone" required/>
+       <span class="floating-label2">your number</span>
+       <error-output class="number-error" for="text"></error-output>
+    </div>
+    
+
+
+  
+</form>
+</div>
+</body>
+
+</html>
+

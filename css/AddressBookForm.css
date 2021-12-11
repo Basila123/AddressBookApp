@@ -1,0 +1,256 @@
+body {
+    margin: 0;
+    height: 100%;
+  }
+  
+  .header {
+    padding: 15px 0;
+    background-color: #ffffff;
+  }
+  
+  .header-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+    
+    
+  }
+  
+  .logo-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border: 0px solid blue;
+    padding-left: 200px;
+    padding-top: 20px;
+
+    
+    
+    
+  }
+  
+  .logo-content img {
+    border: solid 0px #2f8ce2;
+    max-width: 100px;
+    max-height: 100%;
+   
+
+  }
+  
+  .add-text {
+    font: normal normal bold 20px/25px Montserrat;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 0px;
+    color:blue;
+    padding-left: 20px;
+   
+
+    
+  }
+ 
+  
+  .add-book {
+    color: #141414;
+
+  } 
+
+  
+  * { box-sizing: border-box; }
+  
+  
+  
+.form-content {
+    min-height: calc(100%-80px);
+    background-color: #f7f7f7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 0px solid green;
+   
+  }
+  
+  .form {
+    width: 65%;
+    height: max-content;
+    padding: 44px 60px;
+    background: #ffffff 0% 0% no-repeat padding-box; 
+    box-shadow: 0px 3px 6px #00000029;
+    border: 1px solid #f5f5f5;
+    border-radius: 8px;
+    opacity: 1;
+    padding: 2em;
+  }
+  .form-head{
+      width:100%;
+      height:10%;
+      background-color: royalblue;
+      padding-bottom: 10px;
+
+  }
+  
+  .title {
+    font: normal normal bold 24px/37px Roboto;
+    letter-spacing: 0px;
+    color: #42515f;
+    text-transform: capitalize;
+    opacity: 1;
+    padding-top: 50px;
+    padding-left: 400px;
+  }
+  .form-head title{
+      justify-content: center;
+      align-items: center;
+  }
+  .iconX{
+      width:50px;
+      height: 50px;
+      position: absolute;
+      right: 365px;
+      top: 200px;
+    
+    }
+   
+  .row-content {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 10px;
+    align-items: center;
+    border: 0px solid green;
+  }
+  .form-head .iconX{
+      justify-content: right;
+  }
+  
+  .text {
+    font-size: 16px;
+    color: #42515f;
+    opacity: 1;
+    font-family: Roboto;
+  
+
+  }
+  
+  .input {
+    width: 100%;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+    margin-top: 20px;
+    font-size: 14px;
+ 
+  }
+  input:focus ~ .floating-label,
+  input:not(:focus):valid ~ .floating-label{
+  top: 315px;
+  bottom: 10px;
+  left: 450px;
+  font-size: 11px;
+  opacity: 1;
+}
+.floating-label {
+    position: absolute;
+    pointer-events: none;
+    left: 450px;
+    top: 320px;
+    transition: 0.2s ease all;
+}
+
+input:focus ~ .floating-label1,
+  input:not(:focus):valid ~ .floating-label1{
+  top: 400px;
+  bottom: 10px;
+  left: 450px;
+  font-size: 11px;
+  opacity: 1;
+}
+.floating-label1 {
+    position: absolute;
+    pointer-events: none;
+    left: 450px;
+    top: 420px;
+    transition: 0.2s ease all;
+}
+.location{
+  padding-top: 15px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    
+    
+} 
+
+
+.select{
+  padding-left: 10em;
+  padding-bottom: 2em;
+  margin-right: 10em;
+  justify-content: center;
+  align-items: center;
+  width:50%;
+}
+
+
+.zip-text{
+   
+  padding-left: 10em;
+  padding-bottom: 3em;
+  margin-right: 10em;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  height: 80%;
+
+
+    
+}
+.floating-label2{
+    position: absolute;
+    pointer-events: none;
+    left: 450px;
+    top: 570px;
+    transition: 0.2s ease all;
+}
+input:focus ~ .floating-label2,
+  input:not(:focus):valid ~ .floating-label2{
+  top: 550px;
+  bottom: 10px;
+  left: 450px;
+  font-size: 11px;
+  opacity: 1;
+}
+
+
+.floating-label3{
+  position: absolute;
+  pointer-events: none;
+  right: 600px;
+  top: 500px;
+  transition: 0.2s ease all;
+  
+}
+
+input:focus ~ .floating-label3,
+  input:not(:focus):valid ~ .floating-label3{
+  top: 480px;
+  bottom: 10px;
+  right: 600px;
+  font-size: 11px;
+  opacity: 1;
+}
+
+.input1 {
+  width: 50%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 2px;
+  resize: vertical;
+  margin-top: 10px;
+  font-size: 14px;
+  float: right;
+  padding-left:50px;
+
+}
